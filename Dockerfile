@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM python:3.6.5-slim
 COPY . /app
 WORKDIR /app
 RUN apt-get update -y
